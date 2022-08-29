@@ -132,7 +132,7 @@ void rochePapierCiseau(int& pointUtilisateur, int& pointProgramme) {
 	cout << string(60, '=') << endl;
 
 	do {
-
+		
 		cout << "Choisissez ---> Roche (R), Papier(P) ou Ciseau(C)" << endl;
 		choix = toupper(_getch());
 
@@ -255,6 +255,9 @@ void rochePapierCiseau(int& pointUtilisateur, int& pointProgramme) {
 		cout << string(26, '*') << " FIN " << string(28, '*') << '|' << endl;
 		cout << string(60, '=') << endl;
 		cout << string(60, '|') << endl;
+
+		system("pause");
+		system("cls");
 
 }
 
